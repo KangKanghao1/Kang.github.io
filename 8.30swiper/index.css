@@ -1,0 +1,414 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    height: 108px;
+
+}
+
+
+
+.navimg1 {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.navimg2 {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navimg2>div {
+    padding: 0 20px;
+}
+
+.list-text {
+    position: relative;
+    cursor: pointer;
+}
+
+.cityzi {
+    color: #666;
+    font-size: 12px;
+}
+
+.lianxi {
+    width: 98px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 36px;
+}
+
+.list-text>.icon {
+    position: absolute;
+    top: 4px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+
+
+}
+
+.nav-box2 {
+    text-align: center;
+    padding: 25px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bg-box {
+    height: 500px;
+    background: url('./百度/slide_simple_bg1.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-box-content {
+    width: 100%;
+    height: 300px;
+    /* background-color: #f5f5f5; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.bg-text {
+    font-size: 46px;
+    color: #fff;
+}
+
+.bg-text2 {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+
+.bg-btn {
+    width: 124px;
+    height: 35px;
+    /* border: 1px solid rgb(224, 81, 76); */
+    margin: 20px auto 0;
+    border-radius: 5px;
+    line-height: 35px;
+    background-color: rgb(224, 81, 76);
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.wechat-img {
+    width: 48px;
+    height: 48px;
+}
+
+.xiahuaxian1 {
+    border-bottom: 4px solid rgb(89, 188, 218);
+}
+
+.over-wechat {
+    height: 105px;
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+
+.over-text {
+    margin-left: 20px;
+}
+
+.corebox {
+    /* height: 333px; */
+    padding: 50px 20px 0;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.core-text {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.core-text2 {
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.cureimg {
+    cursor: pointer;
+}
+
+.service-box {
+    /* height: 391px; */
+    padding: 50px 15px 0;
+
+}
+
+.coreimgbox {
+    background: url(./百度/promo_banner_bg_01.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.service-box1 {
+
+    height: 338px;
+    border: 1px solid #ddd;
+    padding: 50px 15px 48px;
+    cursor: pointer;
+}
+
+.service-img {
+
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.service-text {
+    font-size: 20px;
+    margin-top: 46px;
+    margin-bottom: 16px;
+}
+
+.service-box>p {
+    font-size: 16px;
+    color: #969696;
+}
+
+
+.bg-box {
+    position: relative;
+}
+
+.por {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(000, 000, 000, .5);
+    z-index: 1;
+}
+
+.erbg-text {
+    z-index: 3;
+
+}
+
+.erbg-text1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.erbg-text2 {
+    font-size: 16px;
+    color: #f5f5f5;
+}
+
+.bg-btn2 {
+    margin-top: 50px;
+    background-color: rgb(59, 180, 242);
+    border: 0;
+}
+
+.tel-box {
+
+    padding: 50px;
+    margin: 30px;
+
+}
+
+.img-text {
+    width: 260px;
+    height: 333px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.textimg {
+    margin-top: 70px;
+
+    display: flex;
+}
+
+.tel-img {
+    width: 65px;
+    height: 65px;
+    margin-left: 40px;
+    margin-right: 5px;
+
+}
+
+
+
+.ovtext {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.foor-box {
+    /* height: 500px; */
+    background: url(./百度/footer.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.foor-mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 62, 101, .9);
+    z-index: 1;
+}
+
+.foor-mask>.aaa {
+    margin-right: 0;
+}
+
+.foor-mask>div {
+    z-index: 2;
+    color: #fff;
+    padding: 50px 5%;
+}
+
+.foor-text {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.foor-text2 {
+    padding: 30px 15px 0 0;
+    font-size: 14px;
+}
+
+
+.text-aww {
+
+    margin-top: 30px;
+
+}
+
+.text-aww>div {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(74, 79, 110);
+}
+
+.text-a1 {
+    display: flex;
+    cursor: pointer;
+}
+
+.iocn {
+    width: 20px;
+    height: 20px;
+    /* background-color: #fff; */
+    margin-left: auto;
+}
+
+span {
+    cursor: pointer;
+}
+
+.foor-text2>span {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    /* .nav-box2 {} */
+
+    .navimg2 {
+        display: none;
+    }
+    .navimg1 {
+        margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .navimg2 {
+        display: none;
+    }
+
+    .nav-box2 {
+        display: none;
+    }
+
+    .nav-icon {
+        width: 36px;
+        height: 36px;
+        /* background-color: #666; */
+        margin-right: 75px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .nav-icon1 {
+        height: 5px;
+        background-color: #555;
+        margin-top: 5px;
+    }
+
+    .over-box {
+        margin: 0 auto;
+    }
+
+    .wechat-bor {
+        border-bottom: 4px solid rgb(89, 188, 218);
+    }
+
+    .xsbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0px;
+        width: 321px;
+        height: 750px;
+        background-color: rgb(56, 61, 79);
+        z-index: 3;
+        color: #fff;
+        font-size: 16px;
+       
+    }
+
+    .xsbox-text {
+        border-bottom: 1px solid rgb(74, 79, 110);
+        
+    }
+    .xsbox-text>div {
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 44px;
+        
+        
+    }
+
+    .maskbox1 {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        /* background-color: #555; */
+    }
+    .mosccp {
+        display: none;
+    }
+
+
+}
